@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML 5</title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferente ou simplesmente
+        aumente  e diminua o tamanho do seu navegador.
+        Produziu diferentes tamanhos de imagens para adequar aos diferentes
+        tamanhos de tela. vá em ex011 - lembre-se que tem que estar na ordem
+        carregar a grande e as demais colocar acima
+    </p>
+
+    <picture>
+       <source media="(max-width:700px )" srcset="Imagens/foto-p.png" type="image/png">
+       <source media="(max-width:1000px )" srcset="Imagens/foto-m.png" type="image/png">
+       <img src="Imagens/foto-g.png" alt="imagem flexével">
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudio em HTML5</p>
+    <audio preload="auto" autoplay controls loop>
+        <source src="midias/Músicas/Bosque I - Relaxamento - Cópia.mp3" type="audio/mpeg">
+    </audio>
+
+
+
+</body>
+</html>
